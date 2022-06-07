@@ -1,3 +1,10 @@
 body{
+    background-color: turquoise;
+}
+.site-nav {
+    background-color: white;
+}
+.button-zakaz {
     background-color: blueviolet;
+    border-color: blue;
 }
