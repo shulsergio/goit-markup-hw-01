@@ -4,7 +4,7 @@ body{
 .site-nav {
     background-color: white;
 }
-.button-zakaz {
+.button-zakaz:hover {
     background-color: blueviolet;
     border-color: blue;
 }
