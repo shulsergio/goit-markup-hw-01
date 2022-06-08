@@ -5,10 +5,10 @@ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubunt
 .site-nav {
     background-color: white;
 }
-.company-logo{
-    color: blue;
+.site-nav company-logo{
+    color: red;
 }
-.company-logo:hover
-.company-logo:focus {
+.site nav company-logo:hover
+.site-nav company-logo:focus {
     color: black;
 }
