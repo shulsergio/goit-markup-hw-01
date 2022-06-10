@@ -10,16 +10,24 @@
   <body>
     <header class="header">
       <nav class="site-nav">
-        <a href="./index.html"> <span class="company-logo">Web</span>Studio </a>
+        <a href="./index.html" class="company-logo">
+          <span class="company-weblogo">Web</span>Studio
+        </a>
         <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#">Котакты</a></li>
+          <li class="nav-index"><a href="./index.html">Студия</a></li>
+          <li class="nav-portfolio">
+            <a href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav-contact"><a href="#">Контакты</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li class="nav-email">
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="nav-tel">
+          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
@@ -29,9 +37,9 @@
         <button class="button-zakaz" type="button">Заказать услугу</button>
         <!-- это должна быть кнопка типа button'-->
       </section>
-      <section>
+      <section class="sect-second">
         <h2>Задачи организации</h2>
-        <ul class="sect-second">
+        <ul>
           <li>
             <h3>Внимание к деталям</h3>
             <p>
@@ -63,34 +71,40 @@
         </ul>
       </section>
       <!-- Чем занимаемся -->
-      <section>
+      <section class="sect-threy">
         <h2>Чем мы занимаемся</h2>
         <ul class="primer-rabot">
-          <li><img src="./images/sec1box1.jpg" alt="фото 1" width="370" /></li>
-          <li><img src="./images/sec1box2.jpg" alt="фото 2" width="370" /></li>
-          <li><img src="./images/sec1box3.jpg" alt="фото 3" width="370" /></li>
+          <li class="primer-rabot-box1">
+            <img src="./images/sec1box1.jpg" alt="фото 1" width="370" />
+          </li>
+          <li class="primer-rabot-box2">
+            <img src="./images/sec1box2.jpg" alt="фото 2" width="370" />
+          </li>
+          <li class="primer-rabot-box3">
+            <img src="./images/sec1box3.jpg" alt="фото 3" width="370" />
+          </li>
         </ul>
       </section>
-      <section>
+      <section class="sect-four">
         <!-- Наша команда  -->
-        <h2>Команда</h2>
-        <ul class="foto-team">
-          <li>
+        <h2>Наша команда</h2>
+        <ul class="team-photo">
+          <li class="team-photo-first">
             <img src="./images/Sec2box1.jpg" alt="Дизайнер" width="270" />
             <h3>Игорь Демьяненко</h3>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="team-photo-second">
             <img src="./images/Sec2box2.jpg" alt="Разработчик" width="270" />
             <h3>Ольга Репина</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-photo-trei">
             <img src="./images/Sec2box3.jpg" alt="Маркетолог" width="270" />
             <h3>Николай Тарасов</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="team-photo-four">
             <img src="./images/Sec2box4.jpg" alt="Дизайнер" width="270" />
             <h3>Михаил Ермаков</h3>
             <p>UI Designer</p>
